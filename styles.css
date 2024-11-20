@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    align-content: center;
+    height: auto;
+    width: auto;
+    flex-direction: column;
+}
+
+img{
+    width: 800px ;
+    height: 440px;
+    display: flex;
+}
+
+.starbucks-latte{
+    display: flex;
+    flex-direction: row;
+    background-color: #1e3932;
+    align-content: center;
+    
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+
+.starbucks-latte-text{
+    align-content: center;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 2;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p{
+    text-align: center;
+    color: #ffffff;
+
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.75;
+}
