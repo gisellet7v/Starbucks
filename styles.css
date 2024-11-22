@@ -21,6 +21,7 @@ nav img{
 
 header{
     align-items: flex-start;
+    /* width: 60vw; */
 }
 
 .navbar{
@@ -28,7 +29,7 @@ header{
     flex-direction: row;
     font-size: 18px;
     font-weight: 700;
-    justify-content: center;
+    /* justify-content: center; */
     margin-bottom: 10px;
     margin-top: 10px;
     
@@ -38,7 +39,7 @@ header{
 .navbar-left{
     display: flex;
     flex-direction: row;
-    margin-right: 50%;
+    margin-right: 30vw;
 }
 
 
@@ -55,38 +56,31 @@ a{
     margin: 20px;
 }
 
-
-
-img{
-    width: 100%; /* Escala según el contenedor padre */
-    max-width: 650px; /* Limita el tamaño máximo */
-    height: auto; /* Mantén la proporción original */
-    display: block; /* Evita espacio extra alrededor de la imagen */
-    
+section.contenedor img{
+    width: 40vw;
 }
 
 .contenedor{
-    
-    width: 68vw;
+    margin-top: 10px;
+    width: 80vw;
     height: auto;
 
     display: flex;
     flex-direction: row;
 
-    padding: 2%;
+    padding: 1%;
    
     background-color: #1e3932;
 
     color: white;
     
-    
-    /* box-sizing: border-box;  */
-
 }
+
 
 .contenedor-text{
     align-content: center;
     margin: auto;
+    padding: 2%;
 }
 
 h2{
