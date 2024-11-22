@@ -14,22 +14,22 @@ body{
 }
 
 
-
+/* imagen de la barra */
 nav img{
     width: 5vw;
 }
 
 header{
     align-items: flex-start;
-    /* width: 60vw; */
+    
 }
 
+/* barra de navegacion */
 .navbar{
     display: flex;
     flex-direction: row;
     font-size: 18px;
     font-weight: 700;
-    /* justify-content: center; */
     margin-bottom: 10px;
     margin-top: 10px;
     
@@ -56,15 +56,17 @@ a{
     margin: 20px;
 }
 
+/* accion de la barra */
 li:hover{
-    background-color: #1e3932;
+    background-color: #8ec480;
+    color: #ffffff;
 }
 section.contenedor img{
     width: 40vw;
 }
 
 .contenedor{
-    margin-top: 10px;
+    margin-top: 20px;
     width: 80vw;
     height: auto;
 
@@ -72,8 +74,6 @@ section.contenedor img{
     flex-direction: row;
 
     padding: 1%;
-   
-    background-color: #1e3932;
 
     color: white;
     
@@ -84,6 +84,36 @@ section.contenedor img{
     align-content: center;
     margin: auto;
     padding: 2%;
+}
+/* contenedor verde */
+#contenedor-verde{
+    background-color: #1e3932;
+}
+
+/* contenedor azul */
+#contenedor-azul{
+    background-color: #0044b4;
+    flex-direction: row-reverse;
+}
+
+/* contenedor rojo */
+#contenedor-rojo{
+    background-color: #c1002d;
+    
+}
+
+/* contenedor verde 2 */
+#contenedor-verde2{
+    background-color: #1e3932;
+    flex-direction: row-reverse;
+    
+}
+
+/* contenedor rojo 2 */
+#contenedor-rojo2{
+    background-color: #c1002d;
+    
+    
 }
 
 h2{
@@ -103,4 +133,30 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.75;
+}
+
+/* footer{
+    align-items: flex-start;
+} */
+
+#ul-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+} 
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.sobre-nosotros{
+    
+    margin-right: 5vw;
 }
