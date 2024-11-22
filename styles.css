@@ -56,6 +56,9 @@ a{
     margin: 20px;
 }
 
+li:hover{
+    background-color: #1e3932;
+}
 section.contenedor img{
     width: 40vw;
 }
