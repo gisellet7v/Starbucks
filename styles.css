@@ -33,13 +33,14 @@ header{
     margin-bottom: 10px;
     margin-top: 10px;
     
+    
 }
 
 
 .navbar-left{
     display: flex;
     flex-direction: row;
-    margin-right: 30vw;
+    margin-right: 25vw;
 }
 
 
@@ -77,6 +78,7 @@ section.contenedor img{
 
     color: white;
     
+    
 }
 
 
@@ -88,6 +90,7 @@ section.contenedor img{
 /* contenedor verde */
 #contenedor-verde{
     background-color: #1e3932;
+   
 }
 
 /* contenedor azul */
@@ -135,14 +138,19 @@ p{
     line-height: 1.75;
 }
 
-/* footer{
+footer{
     align-items: flex-start;
-} */
+    box-shadow: 0px -15px 10px rgba(0, 0, 0, 0.15);
+    margin-top: 5vw;
+    width: 84vw;
+   
+} 
 
 #ul-footer{
     display: flex;
     flex-direction: column;
     text-align: left;
+     
 } 
 
 .footer{
@@ -153,10 +161,51 @@ p{
     align-items: flex-start;
     margin-bottom: 10px;
     margin-top: 10px;
+    margin-right: 45vw;   
     
+   
 }
 
 .sobre-nosotros{
-    
-    margin-right: 5vw;
+    line-height: 1.75;
+    margin-right: 2vw;
 }
+
+.atencion-a-cliente{
+    line-height: 1.75;
+}
+
+.dos-cuadros{
+    margin-top: 20px;
+    width: 84vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+    
+}
+
+.noticias{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2vw;
+    background-color:  #f6bfd9;
+    
+}
+
+#img-noticias{
+    width: 40vw;
+}
+
+.promociones{
+    width:40vw;
+    display: flex;
+    flex-direction: row;
+    background-color:  #98cde4;
+}
+
+#img-promociones{
+    width:40vw;
+}
+
