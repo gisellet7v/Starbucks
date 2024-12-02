@@ -63,7 +63,51 @@ li:hover{
     /* height: 100vh; */
     height: calc(100vh - 60px); /* Altura ajustada */
 }
+/* lado izquierdo */
+.links-cuadrov{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
 
+}
+.links-cuadrov a{
+    color: white;
+}
+
+.links-cuadrov a:hover{
+    background-color: #8ec480;
+   color: black;
+   
+}
+.cuadro-verde{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2vw;
+}
+.cuadro-verde p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.cuadro-verde img{
+    width: 400px;
+    height: auto;
+}
+
+.cuadrov-img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.cuadrov-img img{
+    width: 300px;
+}
 .left-container{
     position: fixed;
     top: 30px;
@@ -76,6 +120,7 @@ li:hover{
     padding: 50px;
 }
 
+/* lado derecho */
 .right-container{
     
     margin-left: 40vw; 
