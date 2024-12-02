@@ -228,3 +228,119 @@ li:hover{
 .column2-img2 p{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* tercera seccion */
+.cafe-estrella{
+    background-color: #f1f0eb;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    margin-left: 1vw;
+    margin-right: 0;
+    
+}
+
+.cafe-estrella p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.cafe-estrella img{
+    width: 400px;
+}
+
+/* Cuarta sesion */
+.text-recompensa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.tutorial-recompensas{
+    display: flex;
+   flex-direction: row;
+   
+
+}
+
+.tuto-izquierdo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 300px;
+    
+}
+
+.descarga{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+}
+
+.descarga p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+}
+.descarga img{
+    width: 150px;
+    margin-left: 2vw;
+}
+
+.ordena{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+}
+
+.ordena p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+}
+.ordena img{
+    width: 150px;
+    margin-left: 2vw;
+}
+
+.paga{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+}
+
+.paga p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+}
+.paga img{
+    width: 150px;
+    margin-left: 2vw;
+}
+
+.tuto-derecho{
+    display: flex;
+    margin-left: 5vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tuto-derecho img{
+    width: 300px;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7vw;
+    margin-top: 4vw;
+}
