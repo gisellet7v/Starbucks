@@ -1,5 +1,7 @@
 
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 nav img{
     width: 5vw;
 }
@@ -344,3 +346,74 @@ li:hover{
     margin-left: 7vw;
     margin-top: 4vw;
 }
+
+/* sexta seccion */
+
+.ordena-paga{
+    
+    background-color: #f1f0eb;
+    margin-left: 7vw;
+    flex-direction: row;
+    
+}
+.estrella{
+    display: flex;
+    flex-direction: column;
+}
+ .text-ordena-paga{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    justify-content: center;
+ }
+
+ .veinte{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    max-width: 150px;
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+ }
+
+ .veinte img{
+    width: 20px;
+    height: auto;
+ }
+
+ .diez{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    max-width: 150px;
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+ }
+
+ .diez img{
+    width: 20px;
+    height: auto;
+ }
+
+ .codigoqr{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .sin-recargar{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    max-width: 150px;
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+ }
+
+ .card{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    max-width: 150px;
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+ }
