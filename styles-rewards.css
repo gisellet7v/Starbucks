@@ -465,3 +465,27 @@ li:hover{
  }
 
  
+ /* septima seccion */
+
+ .personaliza{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7vw;
+    background-color: #f1f0eb;
+    padding: 3vw;
+ }
+
+ .personaliza h3{
+    text-align: center;
+ }
+
+ .coleccionar{
+    display: flex;
+     flex-direction: column;
+     
+ }
+
+ .coleccionar img{
+    width: 25vw;
+    margin-left: 5vw;
+ }
