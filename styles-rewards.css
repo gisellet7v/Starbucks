@@ -518,3 +518,26 @@ li:hover{
     width: 20vw;
     margin-left: 5vw;
  }
+
+
+ /* novena seccion */
+
+ .conoce-mas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw;
+    background-color: #f1f0eb;
+    margin-left: 7vw;
+ }
+
+ .conoce-mas img{
+    width: 30vw;
+    margin-right: 2vw;
+ }
+
+ .conoce{
+    
+    margin-right: 7vw;
+ }
