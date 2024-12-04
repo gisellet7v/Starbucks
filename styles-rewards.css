@@ -131,7 +131,7 @@ li:hover{
     width: calc(100vw - 40vw); 
     margin-top: 0px; 
     height: calc(100vh - 50px);
-    overflow:auto;
+    overflow-y:auto;
     padding: 30px;
 }
 
@@ -349,19 +349,30 @@ li:hover{
 
 /* sexta seccion */
 
+
 .ordena-paga{
     
     background-color: #f1f0eb;
     margin-left: 7vw;
-    flex-direction: row;
+    
     
 }
+.ordena-paga h3{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
 .estrella{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
  .text-ordena-paga{
-    display: block;
+    display: flex;
     text-align: center;
     font-weight: 700;
     justify-content: center;
@@ -377,7 +388,7 @@ li:hover{
  }
 
  .veinte img{
-    width: 20px;
+    width: 3vw;
     height: auto;
  }
 
@@ -391,13 +402,14 @@ li:hover{
  }
 
  .diez img{
-    width: 20px;
+    width: 3vw;
     height: auto;
  }
 
  .codigoqr{
     display: flex;
     flex-direction: column;
+    margin-right: 4vw;
  }
 
  .sin-recargar{
@@ -417,3 +429,39 @@ li:hover{
     margin-bottom: 2vw;
     margin-left: 1vw;
  }
+
+
+ .tarjeta{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .bancaria{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    max-width: 150px;
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+ }
+
+ .favorita{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    max-width: 150px;
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+ }
+
+ .bancaria img{
+    width: 5vw;
+    height: 13vw;
+ }
+
+ .favorita img{
+    width: 5vw;
+    height: 13vw;
+ }
+
+ 
