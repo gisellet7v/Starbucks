@@ -489,3 +489,32 @@ li:hover{
     width: 25vw;
     margin-left: 5vw;
  }
+
+ /* octava seccion */
+
+ .experiencias{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7vw;
+    text-align: center;
+    padding: 3vw;
+    justify-content: center;
+ }
+
+ .experiencias img{
+    width: 22vw;
+    margin-left: 8vw;
+ }
+
+ .playstore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 6vw;
+    margin-top:2vw;
+ }
+
+ .increibles img{
+    width: 20vw;
+    margin-left: 5vw;
+ }
