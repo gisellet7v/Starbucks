@@ -1,0 +1,231 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20vh;
+}
+nav img{
+    width: 5vw;
+}
+
+header{
+    /* align-items: flex-start;
+    position: fixed; */
+    position: fixed;
+    top: 0;
+    background: white;
+    z-index: 10;
+    width: 100vw;
+    
+}
+
+/* barra de navegacion */
+.navbar{
+    display: flex;
+    position: static;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+}
+
+
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25vw;
+}
+
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+
+/* accion de la barra */
+li:hover{
+    background-color: #8ec480;
+    color: #ffffff;
+}
+
+.disfruta{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column  ;
+    color: black;
+    line-height:1vh;
+}
+
+.x {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra las filas horizontalmente */
+    gap: 10vw; /* Espaciado entre las filas */
+}
+
+.fila {
+    display: flex;
+    justify-content: center; /* Centra los círculos dentro de cada fila */
+    gap: 10vw; /* Espaciado entre los círculos */
+}
+
+.fila2 {
+    display: flex;
+    justify-content: flex-start; /* Centra los círculos dentro de cada fila */
+    gap: 10vw; /* Espaciado entre los círculos */
+    margin-right: 25vw;
+}
+
+.circulo {
+    display: flex;
+    flex-direction: column; /* Alinea imagen y texto en columna */
+    align-items: center; /* Centra los elementos en el eje horizontal */
+    gap: 2vw; /* Espaciado uniforme entre imagen y texto */
+}
+
+.circulo img {
+    width: 12vw; 
+    height: 12vw; 
+    margin-top: 5vw; 
+    display: block;
+}
+
+.circulo p {
+    margin-top: 2vw; /* Espaciado entre la imagen y el texto */
+    font-size: 1.2vw; 
+    font-weight: bold; 
+    color: black; 
+    text-align: center; 
+}
+
+
+
+
+#circle1{
+    width: 14.5vw;
+    height: 14.5vw;
+    background-color: #204030; /* Color similar al círculo del ejemplo */
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #circle2{
+    width: 14.5vw;
+    height: 14.5vw;
+    background-color: #204030; /* Color similar al círculo del ejemplo */
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #circle3{
+    width: 14.5vw;
+    height: 14.5vw;
+    background-color: #204030; /* Color similar al círculo del ejemplo */
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+  .circulo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  #circle4{
+    width: 14.5vw;
+    height: 14.5vw;
+    background-color: #204030; /* Color similar al círculo del ejemplo */
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #circle5{
+    width: 14.5vw;
+    height: 14.5vw;
+    background-color: #204030; /* Color similar al círculo del ejemplo */
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .alimentos{
+    margin-top: 6vw;
+  }
+
+  #circle6{
+    width: 14.5vw;
+    height: 14.5vw;
+    background-color: #204030; /* Color similar al círculo del ejemplo */
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
+    margin-left: 8vw;
+  }
+
+  .Cafe-en-grano{
+    margin-top: 6vw;
+  }
+
+  footer{
+    align-items: flex-start;
+    box-shadow: 0px -15px 10px rgba(0, 0, 0, 0.15);
+    margin-top: 5vw;
+    width: 84vw;
+   
+} 
+
+#ul-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+     
+} 
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 45vw;   
+    
+   
+}
+
+.sobre-nosotros{
+    line-height: 1.75;
+    margin-right: 2vw;
+}
+
+.atencion-a-cliente{
+    line-height: 1.75;
+}
