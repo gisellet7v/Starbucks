@@ -216,4 +216,107 @@ footer{
 }
 
 
+/* Responsividad */
+@media (max-width: 1024px) {
+    
+    
+    .contenedor {
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+    }
+    
+    .dos-cuadros {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    
+    .noticias, .promociones {
+        width: 100%;
+        margin: 2vw 0;
+    }
+    
+    h2 {
+        font-size: 4vw;
+    }
+    
+    p {
+        font-size: 2vw;
+    }
+}
 
+@media (max-width: 768px) {
+   
+    footer {
+        width: 100vw;
+    }
+    
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+    
+    .contenedor-text {
+        text-align: center;
+        padding: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 5vw;
+    }
+    
+    p {
+        font-size: 2.5vw;
+    }
+    
+    .contenedor {
+        width: 100%;
+        padding: 5%;
+    }
+    
+    .dos-cuadros {
+        width: 100%;
+    }
+    
+    .noticias, .promociones {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        flex-direction: column; /* Cambia de fila a columna */
+        align-items: center; /* Centra los elementos */
+        font-size: 2vw; /* Ajusta el tamaño de la fuente */
+        gap: 1vw; /* Añade espacio entre los elementos */
+    }
+
+    .navbar-left {
+        margin-right: 0; /* Elimina el margen para centrar */
+    }
+
+    ul {
+        flex-direction: column; /* Cambia la dirección a columna */
+        align-items: center; /* Centra los elementos dentro */
+        gap: 1vw; /* Espaciado entre los elementos del menú */
+    }
+
+    a {
+        margin: 1vw 0; /* Ajusta el espaciado para cada enlace */
+        font-size: 3vw; /* Ajusta el tamaño de fuente */
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        font-size: 3vw; /* Tamaño más grande para pantallas más pequeñas */
+    }
+
+    nav img {
+        width: 10vw; /* Asegura que el logo sea más pequeño */
+        margin-bottom: 1vw;
+    }
+}
