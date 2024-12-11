@@ -610,3 +610,10 @@ li:hover{
 
 
 
+/* responsiva */
+
+@media (max-width: 1204px) {
+    .body{
+        flex-direction: column;
+    }
+}
