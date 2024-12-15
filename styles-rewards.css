@@ -153,6 +153,7 @@ li:hover{
 #unetep{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3vw;
 }
 
 /* seccion de imagenes */
@@ -204,7 +205,7 @@ li:hover{
 #beneficiosp{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 5vw;
+    margin-left: 3vw;
 }
 .doble-columna2{
     display: flex;
@@ -610,10 +611,263 @@ li:hover{
 
 
 
-/* responsiva */
-
-@media (max-width: 1204px) {
-    .body{
+/* Responsividad */
+@media (max-width: 1200px ) { 
+    .rewards-container {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .left-container {
+      width: 100%;
+      height: auto;
+      padding: 2rem;
+      position: relative;
+    }
+  
+    .right-container {
+      margin-left: 0;
+      width: 100%;
+      padding: 2rem;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 992px) { 
+    .cuadro-verde img {
+      width: 20rem; 
+    }
+  
+    .column-img1, .column2-img2, .column-img3 {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    .column-img1 img, .column2-img2 img, .column-img3 img {
+      width: 5rem; 
+    }
+  
+    .cafe-estrella img {
+      width: 20rem; 
+    }
+  
+    .tutorial-recompensas {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .tuto-derecho img {
+      width: 12.5rem; 
+    }
+  
+    .descarga, .ordena, .paga {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .descarga img, .ordena img, .paga img {
+      width: 7.5rem; /* 120px */
+    }
+  }
+  
+  @media (max-width: 768px ) {
+    .ordena-paga{
+    
+        background-color: #f1f0eb;
+        margin-left: 7vw;
+        
+        
+    }
+    .ordena-paga h3{
+        text-align: center;
+    }
+    
+    .container{
+        display: flex;
         flex-direction: column;
     }
+    
+    .estrella{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+     .text-ordena-paga{
+        display: flex;
+        text-align: center;
+        font-weight: 700;
+        justify-content: center;
+     }
+    
+     .veinte{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        max-width: 150px;
+        margin-bottom: 2vw;
+        margin-left: 1vw;
+     }
+    
+     .veinte img{
+        width: 3vw;
+        height: auto;
+     }
+    
+     .diez{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        max-width: 150px;
+        margin-bottom: 2vw;
+        margin-left: 1vw;
+     }
+    
+     .diez img{
+        width: 3vw;
+        height: auto;
+     }
+    
+     .codigoqr{
+        display: flex;
+        flex-direction: column;
+        margin-right: 4vw;
+     }
+    
+     .sin-recargar{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        max-width: 150px;
+        margin-bottom: 2vw;
+        margin-left: 1vw;
+     }
+    
+     .card{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        max-width: 150px;
+        margin-bottom: 2vw;
+        margin-left: 1vw;
+     }
+    
+    
+     .tarjeta{
+        display: flex;
+        flex-direction: column;
+     }
+    
+     .bancaria{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        max-width: 150px;
+        margin-bottom: 2vw;
+        margin-left: 1vw;
+     }
+    
+     .favorita{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        max-width: 150px;
+        margin-bottom: 2vw;
+        margin-left: 1vw;
+     }
+    
+     .bancaria img{
+        width: 5vw;
+        height: 13vw;
+     }
+    
+     .favorita img{
+        width: 5vw;
+        height: 13vw;
+     }
+    
+    /*  */
+    .personaliza, .experiencias, .conoce-mas {
+      margin-left: 0;
+      padding: 2rem;
+    }
+  
+    .coleccionar img, .experiencias img, .conoce-mas img {
+      width: 80%;
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 576px) { 
+    footer {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      text-align: center;
+    }
+  
+    #ul-footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .logo img {
+      width: 80%;
+      margin-left: 0;
+    }
+  }
+  
+  
+
+  /* Responsiva navbar*/
+@media (max-width: 1024px) {
+    .navbar {
+        margin: 10px;
+    }
+    .navbar-right{
+        align-self: center;
+        
+    }
+
+    .navbar-right{
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        /* margin-right: 25vw; */
+    }
+
+    .navbar-left {
+        margin-right: 0; 
+        width: 40%;
+    }
+
+    ul {
+        
+        align-items: center; 
+        gap: 2vw; 
+    }
+
+    a {
+        margin: 1vw 0; 
+        font-size: 3vw;
+    }
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        font-size: 3vw; 
+    }
+
+    nav img {
+        width: 10vw; 
+        margin-bottom: 1vw;
+    }
+}
+
+
+
+
+
+
