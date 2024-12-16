@@ -380,16 +380,12 @@ li:hover{
         width: 100%;
         margin-bottom: 2vw;
     }
-    .navbar-right{
-        align-self: center;
-        
-    }
 
     .navbar-right{
         display: flex;
         flex-direction: row;
         width: 60%;
-        /* margin-right: 25vw; */
+        align-self: center;
     }
 
     .navbar-left {
