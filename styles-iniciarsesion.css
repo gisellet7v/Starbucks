@@ -5,8 +5,7 @@ nav img{
 }
 
 header{
-    /* align-items: flex-start;
-    position: fixed; */
+   
     position: fixed;
     top: 0;
     background: white;
